@@ -151,7 +151,7 @@ Interactive charts including:
 
 Displays previous weather predictions and their corresponding outcomes for performance evaluation.
 
-## Paper Trading Workflow
+### Paper Trading Workflow
 
 The paper trading engine follows a structured workflow from order creation to portfolio analytics. Every trade passes through risk evaluation and Kelly Criterion-based position sizing before updating the portfolio and trading statistics.
 
