@@ -1,4 +1,4 @@
-### 🌧️ Weather AI Trading Agent
+# 🌧️ Weather AI Trading Agent
 
 An AI-powered Weather Prediction and Paper Trading platform developed as part of the **CrowdWisdomTrading Internship Assessment**.
 
@@ -14,7 +14,7 @@ The system continuously gathers weather information for multiple cities, perform
 
 The objective is not only to predict weather outcomes but also to demonstrate proper software architecture, agent coordination, portfolio management, and risk-aware trading.
 
-## Features
+### Features
 
 - 🌍 Multi-city weather collection (5+ cities)
 - 🤖 AI-powered weather research using OpenRouter
@@ -32,7 +32,7 @@ The objective is not only to predict weather outcomes but also to demonstrate pr
 - 📋 Prior Predictions
 - 🎯 Professional Streamlit Dashboard
 
-## System Architecture
+### System Architecture
 
 The Weather AI Trading Terminal follows a modular multi-agent architecture. The Hermes Coordinator orchestrates weather collection, AI analysis, prediction, risk management, paper trading, portfolio management, and the Streamlit dashboard.
 
@@ -40,7 +40,7 @@ The Weather AI Trading Terminal follows a modular multi-agent architecture. The 
   <img src="screenshots/SYSTEM_ARCHITECTURE.png" alt="System Architecture" width="900"/>
 </p>
 
-## Technology Stack
+### Technology Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -53,13 +53,13 @@ The Weather AI Trading Terminal follows a modular multi-agent architecture. The 
 | OpenRouter | LLM-based Weather Analysis |
 | Apify | Weather Data Scraping |
 
-## Project Structure
+### Project Structure
 
 The project follows a modular architecture where each component has a dedicated responsibility, making the application scalable, maintainable, and easy to extend.
 
 ![Project Structure](screenshots/Project_structure.png)
 
-## AI Workflow
+### AI Workflow
 
 1. Collect weather data from multiple sources.
 2. Gather both global and local weather conditions.
@@ -72,7 +72,7 @@ The project follows a modular architecture where each component has a dedicated 
 9. Update portfolio and statistics.
 10. Display results on the trading dashboard.
 
-## Dashboard Modules
+### Dashboard Modules
 
 ### Portfolio
 
@@ -159,7 +159,7 @@ The paper trading engine follows a structured workflow from order creation to po
   <img src="screenshots/Paper_trading_workflow.png" alt="Paper Trading Workflow" width="500"/>
 </p>
 
-## Risk Management
+### Risk Management
 
 The application implements:
 
@@ -170,7 +170,7 @@ The application implements:
 - Risk Dashboard
 - Hedge Suggestions
 
-## Installation
+### Installation
 
 Clone the repository:
 
@@ -196,7 +196,7 @@ Run the application:
 streamlit run dashboard/app.py
 ```
 
-## Configuration
+### Configuration
 
 Before running the application, configure the following:
 
@@ -205,7 +205,7 @@ Before running the application, configure the following:
 
 Update the corresponding configuration or environment variables before launching the application.
 
-## Screenshots
+### Screenshots
 
 ### Dashboard
 
@@ -235,7 +235,7 @@ Update the corresponding configuration or environment variables before launching
 
 ![Trading Analytics](screenshots/07_trading_analytics.png)
 
-## Future Improvements
+### Future Improvements
 
 - Live market settlement engine
 - Telegram notifications
@@ -248,7 +248,7 @@ Update the corresponding configuration or environment variables before launching
 - Performance benchmarking
 - Automated strategy backtesting
 
-## Deliverables
+### Deliverables
 
 This submission includes:
 
@@ -263,7 +263,7 @@ This submission includes:
 - Statistical Results
 - GitHub Repository
 
-## Acknowledgements
+### Acknowledgements
 
 This project was developed as part of the **CrowdWisdomTrading AI Internship Assessment**.
 
