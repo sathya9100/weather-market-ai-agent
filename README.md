@@ -1,4 +1,4 @@
-# 🌧️ Weather AI Trading Agent
+### 🌧️ Weather AI Trading Agent
 
 An AI-powered Weather Prediction and Paper Trading platform developed as part of the **CrowdWisdomTrading Internship Assessment**.
 
@@ -6,7 +6,7 @@ The application uses multiple AI agents to collect weather information, analyze 
 
 The project is inspired by modern prediction markets such as **Polymarket** and weather trading systems like **PolyWeather**, while maintaining a clean modular architecture using Python.
 
-## Project Overview
+### Project Overview
 
 This project demonstrates how Artificial Intelligence, weather intelligence, and quantitative trading concepts can be combined into a single application.
 
